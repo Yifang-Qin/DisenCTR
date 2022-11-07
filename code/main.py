@@ -33,12 +33,10 @@ ARG.add_argument('--seed', type=int, default=98765,
                  help='Random seed.')
 ARG.add_argument('--batch', type=int, default=1024,
                  help='Training batch size.')
-ARG.add_argument('--data', type=str, default='meituan',
+ARG.add_argument('--data', type=str, default='ML',
                  help='Training dataset.')
 ARG.add_argument('--K', type=int, default=4,
                  help='Numer of disentangled intentions.')
-ARG.add_argument('--method', type=str, default='att_k',
-                 help='Method of sequence encoding, mean/att_seq/att_k')
 ARG.add_argument('--beta', type=float, default=0.5,
                  help='Hyper beta for softplus.')
 ARG.add_argument('--tau', type=float, default=1,
