@@ -1,4 +1,4 @@
-## KBGNN
+## DisenCTR
 
 This is the pytorch implementation for our SIGIR 2022 [paper](https://dl.acm.org/doi/10.1145/3477495.3531851):
 > Yifan Wang, Yifang Qin, Fang Sun, Bo Zhang, Xuyang Hou, Ke Hu, 
